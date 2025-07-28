@@ -69,7 +69,8 @@ public final class Whitelister extends JavaPlugin implements Listener, CommandEx
 
         if (!isWhitelisted) {
             String kick_message = Config.getMessageConfig().getString("messages.kick");
-            player.kick(Component.text(kick_message));
+            // Using Deprecated API for compatibility with proxies
+            player.kickPlayer(ChatColor.translateAlternateColorCodes('&', kick_message));
         }
     }
 
