@@ -1,0 +1,5 @@
+whitelist:
+  allow-all: false
+mysql:
+  jdbc-url: "jdbc:mysql://<user>:<url_encoded_password>@<hostname>:<port>/<database>"
+  table: "whitelister"

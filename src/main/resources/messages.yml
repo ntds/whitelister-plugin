@@ -1,0 +1,6 @@
+messages:
+  kick: "You are not allowed on this server!"
+  usage: "Usage: /whitelister <allow | deny | list> <player>"
+  permission: "No permission"
+  unknown-error: "An unknown error occurred"
+  reloaded: "Configuration reloaded."
