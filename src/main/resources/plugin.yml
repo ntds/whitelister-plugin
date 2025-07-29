@@ -1,5 +1,5 @@
 name: Whitelister
-version: '1.0.1-BETA'
+version: '1.0.2-BETA'
 main: pl.re1.whitelister.Whitelister
 api-version: '1.20'
 

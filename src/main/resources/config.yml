@@ -1,5 +1,6 @@
 whitelist:
   allow-all: false
+  delay: 8 # Delay in ticks before a player is kicked for not being whitelisted (too small value may cause that player will load world fully before being kicked)
 mysql:
   jdbc-url: "jdbc:mysql://<user>:<url_encoded_password>@<hostname>:<port>/<database>"
   table: "whitelister"

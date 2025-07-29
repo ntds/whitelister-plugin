@@ -1,5 +1,5 @@
 messages:
-  kick: "&cYou are not whitelisted"
+  kick: "You are not whitelisted"
   usage: "Usage: /whitelister <allow | deny | list> <player>"
   permission: "No permission"
   unknown-error: "An unknown error occurred"
